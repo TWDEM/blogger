@@ -1892,7 +1892,7 @@ letter-spacing:1.5px;
      </b:widget>
      <b:widget id='HTML901' locked='true' title='Comments system' type='HTML' version='1'>
        <b:widget-settings>
-         <b:widget-setting name='content'>[blogger][disqus][facebook]</b:widget-setting>
+         <b:widget-setting name='content'>[blogger][disqus]</b:widget-setting>
        </b:widget-settings>
        <b:includable id='main'>
 
@@ -2011,7 +2011,7 @@ letter-spacing:1.5px;
                 <div data-tab='blogger'><div class='blogger-tab'/></div>
               </div>
             </b:if>
-            <div id='fb-root'/><script>(function(d, s, id){var js, fjs = d.getElementsByTagName(s)[0];if (d.getElementById(id)) return;js = d.createElement(s); js.id = id;js.src = &quot;//connect.facebook.net/en_US/sdk.js#xfbml=1&amp;version=v2.0&quot;;fjs.parentNode.insertBefore(js, fjs);}(document, &#39;script&#39;, &#39;facebook-jssdk&#39;));</script>&lt;script&gt;$(&quot;.facebook-tab&quot;).append(&quot;&lt;div class=&#39;fb-comments&#39; data-href=&#39;<data:blog.canonicalUrl/>&#39; data-width=&#39;100%&#39; data-numposts=&#39;5&#39; data-colorscheme=&#39;light&#39;&gt;&lt;/div&gt;&quot;);&lt;/script&gt;
+            <div id='fb-root'/><script>(function(d, s, id){var js, fjs = d.getElementsByTagName(s)[0];if (d.getElementById(id)) return;js = d.createElement(s); js.id = id;js.src = &quot; //#xfbml=1&amp;version=v2.0&quot;;fjs.parentNode.insertBefore(js, fjs);}(document, &#39;script&#39;, &#39;facebook-jssdk&#39;));</script>&lt;script&gt;$(&quot;.facebook-tab&quot;).append(&quot;&lt;div class=&#39;fb-comments&#39; data-href=&#39;<data:blog.canonicalUrl/>&#39; data-width=&#39;100%&#39; data-numposts=&#39;5&#39; data-colorscheme=&#39;light&#39;&gt;&lt;/div&gt;&quot;);&lt;/script&gt;
          </div>  </b:if>
         </b:includable>
      </b:widget>

@@ -313,7 +313,7 @@ a.News:before {content:&quot;\f1ea&quot;}</b:widget-setting>
         <b:widget-setting name='text-0'>首頁</b:widget-setting>
         <b:widget-setting name='link-2'>https://www.twdem.org/p/blog-page_7.html</b:widget-setting>
         <b:widget-setting name='text-3'>404 error</b:widget-setting>
-        <b:widget-setting name='link-0'>#</b:widget-setting>
+        <b:widget-setting name='link-0'>https://www.twdem.org</b:widget-setting>
         <b:widget-setting name='text-2'>聯絡方式</b:widget-setting>
       </b:widget-settings>
       <b:includable id='main'>
@@ -343,13 +343,13 @@ a.News:before {content:&quot;\f1ea&quot;}</b:widget-setting>
       <b:section class='headerleft' id='headerleft' maxwidgets='1' name='Blog Logo' showaddelement='no'>
          <b:widget id='Header1' locked='true' title='臺灣守護民主平台 (標頭)' type='Header' version='1'>
            <b:widget-settings>
-             <b:widget-setting name='displayUrl'>https://4.bp.blogspot.com/-3y_v-3jks2s/Wgw6nGnV-8I/AAAAAAAALrk/ETvP7Vh0K3QoJ4xe6SYJzcAQv09u4S3ewCK4BGAYYCw/s1600/twd.gif</b:widget-setting>
-             <b:widget-setting name='displayHeight'>100</b:widget-setting>
+             <b:widget-setting name='displayUrl'>http://2.bp.blogspot.com/-SX4-ZfjLOQw/Wg73vQk0L8I/AAAAAAAALt4/9YSECmliSYwJ_WLf0vzNeuBebGpsXFM7wCK4BGAYYCw/s284/logotwd001.gif</b:widget-setting>
+             <b:widget-setting name='displayHeight'>89</b:widget-setting>
              <b:widget-setting name='sectionWidth'>284</b:widget-setting>
              <b:widget-setting name='useImage'>true</b:widget-setting>
-             <b:widget-setting name='shrinkToFit'>false</b:widget-setting>
+             <b:widget-setting name='shrinkToFit'>true</b:widget-setting>
              <b:widget-setting name='imagePlacement'>BEFORE_DESCRIPTION</b:widget-setting>
-             <b:widget-setting name='displayWidth'>700</b:widget-setting>
+             <b:widget-setting name='displayWidth'>284</b:widget-setting>
            </b:widget-settings>
            <b:includable id='main'>
 
@@ -450,24 +450,26 @@ a.News:before {content:&quot;\f1ea&quot;}</b:widget-setting>
         <b:section class='menu' id='menu' maxwidgets='1' name='Main Menu' showaddelement='yes'>
           <b:widget id='LinkList210' locked='true' title='Menu' type='LinkList' version='1'>
             <b:widget-settings>
-              <b:widget-setting name='text-10'>___2014台灣民主指標</b:widget-setting>
+              <b:widget-setting name='text-10'>_兩岸關係論壇</b:widget-setting>
               <b:widget-setting name='link-17'>https://books.twdem.org</b:widget-setting>
               <b:widget-setting name='link-16'>http://</b:widget-setting>
+              <b:widget-setting name='link-19'>http://</b:widget-setting>
               <b:widget-setting name='sorting'>NONE</b:widget-setting>
-              <b:widget-setting name='link-18'><![CDATA[https://tdw.neticrm.tw/civicrm/contribute/transact?reset=1&id=2]]></b:widget-setting>
+              <b:widget-setting name='link-18'>#</b:widget-setting>
               <b:widget-setting name='link-1'>#</b:widget-setting>
               <b:widget-setting name='link-13'>#</b:widget-setting>
               <b:widget-setting name='link-2'>#</b:widget-setting>
-              <b:widget-setting name='link-12'>http://www.twdem.org/p/blog-page_14.html</b:widget-setting>
+              <b:widget-setting name='link-12'>https://www.twdem.org/p/blog-page_4.html</b:widget-setting>
               <b:widget-setting name='link-15'>#</b:widget-setting>
               <b:widget-setting name='link-0'>#</b:widget-setting>
               <b:widget-setting name='link-14'>#</b:widget-setting>
-              <b:widget-setting name='link-11'>https://sites.google.com/site/lianganguanxiluntan/</b:widget-setting>
-              <b:widget-setting name='link-10'>#</b:widget-setting>
+              <b:widget-setting name='link-11'>http://www.twdem.org/p/blog-page_14.html</b:widget-setting>
+              <b:widget-setting name='link-10'>https://sites.google.com/site/lianganguanxiluntan/</b:widget-setting>
               <b:widget-setting name='text-9'>___2015台灣民主指標</b:widget-setting>
               <b:widget-setting name='link-9'>#</b:widget-setting>
               <b:widget-setting name='text-8'>___2016台灣民主指標</b:widget-setting>
               <b:widget-setting name='link-7'>#</b:widget-setting>
+              <b:widget-setting name='text-20'>捐款支持</b:widget-setting>
               <b:widget-setting name='link-8'>#</b:widget-setting>
               <b:widget-setting name='link-5'>http://</b:widget-setting>
               <b:widget-setting name='link-6'>http://</b:widget-setting>
@@ -477,16 +479,18 @@ a.News:before {content:&quot;\f1ea&quot;}</b:widget-setting>
               <b:widget-setting name='text-0'>工作專案</b:widget-setting>
               <b:widget-setting name='text-3'>___2016台灣民主事件</b:widget-setting>
               <b:widget-setting name='text-2'>__民主事件簿</b:widget-setting>
-              <b:widget-setting name='text-5'>___2014台灣民主指標</b:widget-setting>
-              <b:widget-setting name='text-4'>___2015台灣民主指標</b:widget-setting>
+              <b:widget-setting name='text-5'>___2014台灣民主事件</b:widget-setting>
+              <b:widget-setting name='text-4'>___2015台灣民主事件</b:widget-setting>
               <b:widget-setting name='text-7'>__民主指標</b:widget-setting>
-              <b:widget-setting name='text-6'>___2013台灣民主指標</b:widget-setting>
+              <b:widget-setting name='text-6'>___2013台灣民主事件</b:widget-setting>
+              <b:widget-setting name='text-19'>_電子報</b:widget-setting>
               <b:widget-setting name='text-15'>_新聞稿</b:widget-setting>
-              <b:widget-setting name='text-16'>講座記錄</b:widget-setting>
+              <b:widget-setting name='text-16'>活動記錄</b:widget-setting>
               <b:widget-setting name='text-17'>出版品</b:widget-setting>
-              <b:widget-setting name='text-18'>捐款支持</b:widget-setting>
-              <b:widget-setting name='text-11'>_兩岸關係論壇</b:widget-setting>
-              <b:widget-setting name='text-12'>_新憲運動</b:widget-setting>
+              <b:widget-setting name='text-18'>_電子書</b:widget-setting>
+              <b:widget-setting name='text-11'>_新憲運動</b:widget-setting>
+              <b:widget-setting name='link-20'><![CDATA[https://tdw.neticrm.tw/civicrm/contribute/transact?reset=1&id=2]]></b:widget-setting>
+              <b:widget-setting name='text-12'>自由人宣言</b:widget-setting>
               <b:widget-setting name='text-13'>新聞稿聲明</b:widget-setting>
               <b:widget-setting name='text-14'>_投書</b:widget-setting>
             </b:widget-settings>
@@ -2011,7 +2015,7 @@ letter-spacing:1.5px;
                 <div data-tab='blogger'><div class='blogger-tab'/></div>
               </div>
             </b:if>
-            <div id='fb-root'/><script>(function(d, s, id){var js, fjs = d.getElementsByTagName(s)[0];if (d.getElementById(id)) return;js = d.createElement(s); js.id = id;js.src = &quot;//connect.facebook.net/en_US/sdk.js#xfbml=1&amp;version=v2.0&quot;;fjs.parentNode.insertBefore(js, fjs);}(document, &#39;script&#39;, &#39;facebook-jssdk&#39;));</script>&lt;script&gt;$(&quot;.facebook-tab&quot;).append(&quot;&lt;div class=&#39;fb-comments&#39; data-href=&#39;<data:blog.canonicalUrl/>&#39; data-width=&#39;100%&#39; data-numposts=&#39;5&#39; data-colorscheme=&#39;light&#39;&gt;&lt;/div&gt;&quot;);&lt;/script&gt;
+            <div id='fb-root'/><script>(function(d, s, id){var js, fjs = d.getElementsByTagName(s)[0];if (d.getElementById(id)) return;js = d.createElement(s); js.id = id;js.src = &quot; //#xfbml=1&amp;version=v2.0&quot;;fjs.parentNode.insertBefore(js, fjs);}(document, &#39;script&#39;, &#39;facebook-jssdk&#39;));</script>&lt;script&gt;$(&quot;.facebook-tab&quot;).append(&quot;&lt;div class=&#39;fb-comments&#39; data-href=&#39;<data:blog.canonicalUrl/>&#39; data-width=&#39;100%&#39; data-numposts=&#39;5&#39; data-colorscheme=&#39;light&#39;&gt;&lt;/div&gt;&quot;);&lt;/script&gt;
          </div>  </b:if>
         </b:includable>
      </b:widget>
@@ -2093,7 +2097,7 @@ letter-spacing:1.5px;
 </b:section>
 <div style='clear: both;'/>
     <b:section class='sidebar ty-trigger' id='sidebar(1)' preferred='yes'>
-      <b:widget id='BlogSearch1' locked='false' title='搜尋此網誌' type='BlogSearch'>
+      <b:widget id='BlogSearch1' locked='false' title='搜尋本站' type='BlogSearch'>
         <b:includable id='main'>
     <!-- only display title if it's non-empty -->
     <b:if cond='data:title != &quot;&quot;'>
@@ -2177,7 +2181,7 @@ letter-spacing:1.5px;
     <b:include name='quickedit'/>
   </b:includable>
       </b:widget>
-      <b:widget id='BlogArchive2' locked='false' title='Blog Archive' type='BlogArchive'>
+      <b:widget id='BlogArchive2' locked='false' title='本站檔案庫' type='BlogArchive'>
         <b:widget-settings>
           <b:widget-setting name='showStyle'>MENU</b:widget-setting>
           <b:widget-setting name='yearPattern'>yyyy</b:widget-setting>
@@ -2274,7 +2278,7 @@ letter-spacing:1.5px;
 <li class='item-3'><a href='#tabside3'/></li>
       </ul>
       <b:section class='sidebar ty-trigger' id='tabside1' maxwidgets='1' name='Tab 01' showaddelement='yes'>
-        <b:widget id='HTML3' locked='false' title='Recent' type='HTML' version='1'>
+        <b:widget id='HTML3' locked='false' title='近期消息' type='HTML' version='1'>
           <b:widget-settings>
             <b:widget-setting name='content'><![CDATA[<span class="latestposts" data-no="5"></span>]]></b:widget-setting>
           </b:widget-settings>
@@ -2292,7 +2296,7 @@ letter-spacing:1.5px;
         </b:widget>
       </b:section>
       <b:section class='sidebar ty-trigger' id='tabside2' maxwidgets='1' name='Tab 02' showaddelement='yes'>
-        <b:widget id='PopularPosts1' locked='false' title='Popular' type='PopularPosts' version='1'>
+        <b:widget id='PopularPosts1' locked='false' title='人氣文章' type='PopularPosts' version='1'>
           <b:widget-settings>
             <b:widget-setting name='numItemsToShow'>5</b:widget-setting>
             <b:widget-setting name='showThumbnails'>true</b:widget-setting>
@@ -2340,7 +2344,7 @@ letter-spacing:1.5px;
         </b:widget>
       </b:section>
   <b:section class='sidebar ty-trigger' id='tabside3' maxwidgets='1' name='Tab 03' showaddelement='yes'>
-    <b:widget id='HTML5' locked='false' title='Comments' type='HTML' version='1'>
+    <b:widget id='HTML5' locked='false' title='訪客留言' type='HTML' version='1'>
       <b:widget-settings>
         <b:widget-setting name='content'><![CDATA[<span class="latestcomments" data-no="5"></span>]]></b:widget-setting>
       </b:widget-settings>
@@ -2418,7 +2422,7 @@ letter-spacing:1.5px;
 <b:section class='lowerbar ty-trigger' id='Footer widget(1)' preferred='yes'>
    <b:widget id='Text1' locked='false' title='捐款資訊' type='Text'>
      <b:widget-settings>
-       <b:widget-setting name='content'><![CDATA[【信用卡定期小額捐款】<br />線上信用卡定期小額捐款：<a href="https://tdw.neticrm.tw/civicrm/contribute/transact?reset=1&amp;id=2"><span style="color:#ff0000;">點選連結</span></a><br />下載信用卡捐款授權書，親簽後回傳<br />【單筆匯款/信用卡捐款】<br />線上信用卡/ATM/超商代碼/條碼 單筆捐款：<a href="https://tdw.neticrm.tw/civicrm/contribute/transact?reset=1&amp;id=1"><span style="color:#ff0000;">點選連結</span></a><br /><br />]]></b:widget-setting>
+       <b:widget-setting name='content'><![CDATA[【信用卡定期小額捐款】<br />線上信用卡定期小額捐款：<a href="https://tdw.neticrm.tw/civicrm/contribute/transact?reset=1&amp;id=2"><span =""  style="color:#0088ff;">點選連結</span></a><br />下載信用卡捐款授權書，親簽後回傳<br />【單筆匯款/信用卡捐款】<br />線上信用卡/ATM/超商代碼/條碼 單筆捐款：<a href="https://tdw.neticrm.tw/civicrm/contribute/transact?reset=1&amp;id=1"><span =""  style="color:#0088ff;">點選連結</span></a><div>捐款帳戶：社團法人臺灣守護民主平台協會<br />- 臺灣銀行(004)城中分行 045-00100417-1<br />- 中國信託(822)華山分行 271-54002994-3</div><div><br /></div><div>電子信箱：tdw2012@gmail.com<br />電話：02-2393-6363 傳真：2392-0381<br />地址：10049台北市中正區北平東路28號9樓之1<br /><br /></div>]]></b:widget-setting>
      </b:widget-settings>
      <b:includable id='main'>
   <!-- only display title if it's non-empty -->
@@ -2437,9 +2441,9 @@ letter-spacing:1.5px;
 
 <div id='lowerbar-wrapper'> 
 <b:section class='lowerbar ty-trigger' id='Footer widget(2)' preferred='yes'>
-   <b:widget id='Text3' locked='false' title='聯絡資訊' type='Text'>
+   <b:widget id='Text3' locked='false' title='隱私安全提醒' type='Text'>
      <b:widget-settings>
-       <b:widget-setting name='content'><![CDATA[電子信箱：tdw2012@gmail.com<br/>電話：02-2393-6363 傳真：2392-0381<br/>地址：10049台北市中正區北平東路28號9樓之1<br/>捐款帳戶：社團法人臺灣守護民主平台協會<br/>- 臺灣銀行(004)城中分行 045-00100417-1<br/>- 中國信託(822)華山分行 271-54002994-3]]></b:widget-setting>
+       <b:widget-setting name='content'><![CDATA[民主平台為一個小型獨立的 NGO，因財力資源有限，本站以免費 google blogger 架設，再透過 cloudflare 提供的免費 SSL 憑證強化訪客安全加密訪問。您的瀏覧器指紋記錄除了會保留在原服務提供商 google, cloudflare 外，其它收集者還包括  facebook, disqus 及一些我們想盡辦法但不知如何刪除的不明追蹤器。故提醒本站訪客依自身威脅模型，做出適當的安全防護。<div><br /></div><div>相關資訊，請參考：<a href="https://privacytools.twngo.xyz/"><span =""  style="color:#0088ff;">網路隱私工具指南</span></a></div>]]></b:widget-setting>
      </b:widget-settings>
      <b:includable id='main'>
   <!-- only display title if it's non-empty -->
