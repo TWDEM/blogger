@@ -27,13 +27,9 @@ template　主題會有點雜亂，因為這支 xml 檔案雜夾了 CSS, javascr
 因擔心加密的程式碼中雜有不安全或奇怪的東西，所以還是花了10美元買了付費版的主題（這個價位還蠻佛心的）。這回大約修改的地方是：
 
 - 1). xml 文件中原本出現 http:// 檢查是否能代換成 https://
-文章連結　http 改成 https : 主要是把表頭`<head></head> `之中的
-`<link expr:href='data:blog.homepageUrl' rel='openid.delegate'/>`　改成 `<link expr:href='data:blog.homepageUrl.https' rel='openid.delegate'/>`
+有些網誌上的文章連結是否需改修改（http 改成 https），例如發現設定 CF nameserver + https everywhere 之後，首頁原本會出現的文章前200字卻消失，只剩下空白旳「閱讀全文」，查看這段程式碼猜想可能是 data-url='data:post.url' 未https 的問題(幸運猜對了)  
 
-`<link expr:href='data:blog.url' rel='canonical'/> ` 改成
-`<link expr:href='data:blog.url.https' rel='canonical'/>`
-
-這樣𠩤本網站文章的連結會全部從 http:// 變成 https://
+其它部份大至沒問題，主要麻煩還是過去舊文內容本身帶有不安全的連結或圖片檔 http:// 造成無法通過瀏覽器的安全查驗。  
 
  2). 有一些放在xml 的圖片是否要換掉，例如無圖之圖片檔
 
