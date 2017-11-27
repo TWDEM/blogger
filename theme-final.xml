@@ -343,13 +343,13 @@ a.News:before {content:&quot;\f1ea&quot;}</b:widget-setting>
       <b:section class='headerleft' id='headerleft' maxwidgets='1' name='Blog Logo' showaddelement='no'>
          <b:widget id='Header1' locked='true' title='臺灣守護民主平台--newsflash (標頭)' type='Header' version='1'>
            <b:widget-settings>
-             <b:widget-setting name='displayUrl'>https://raw.githubusercontent.com/TWDEM/blogger/master/img/website/logo.png</b:widget-setting>
-             <b:widget-setting name='displayHeight'>142</b:widget-setting>
+             <b:widget-setting name='displayUrl'>http://1.bp.blogspot.com/-HtioboK9nZY/WhmN5Q8U3mI/AAAAAAAALyM/eEu6hXHI2JYP3h0A5vvXsjdaSHqryrgTACK4BGAYYCw/s284/logo-text.gif</b:widget-setting>
+             <b:widget-setting name='displayHeight'>250</b:widget-setting>
              <b:widget-setting name='sectionWidth'>284</b:widget-setting>
              <b:widget-setting name='useImage'>true</b:widget-setting>
              <b:widget-setting name='shrinkToFit'>true</b:widget-setting>
-             <b:widget-setting name='imagePlacement'>REPLACE</b:widget-setting>
-             <b:widget-setting name='displayWidth'>284</b:widget-setting>
+             <b:widget-setting name='imagePlacement'>BEFORE_DESCRIPTION</b:widget-setting>
+             <b:widget-setting name='displayWidth'>250</b:widget-setting>
            </b:widget-settings>
            <b:includable id='main'>
 
@@ -568,34 +568,7 @@ a.News:before {content:&quot;\f1ea&quot;}</b:widget-setting>
   </b:if>
 
 <div class='body-row' id='ads-blog'>
-<b:section class='ad-home-widget' id='adwidegt1' maxwidgets='1' name='Home Ad Widget' showaddelement='yes'>
-  <b:widget id='Image2' locked='false' title='' type='Image'>
-    <b:widget-settings>
-      <b:widget-setting name='displayUrl'>https://raw.githubusercontent.com/TWDEM/blogger/master/img/website/crowdfunding2017.jpg</b:widget-setting>
-      <b:widget-setting name='displayHeight'>563</b:widget-setting>
-      <b:widget-setting name='sectionWidth'>790</b:widget-setting>
-      <b:widget-setting name='shrinkToFit'>false</b:widget-setting>
-      <b:widget-setting name='displayWidth'>1000</b:widget-setting>
-      <b:widget-setting name='link'/>
-      <b:widget-setting name='caption'/>
-    </b:widget-settings>
-    <b:includable id='main'>
-    <b:if cond='data:title != &quot;&quot;'>
-      <h2><data:title/></h2>
-    </b:if>
-    <div class='widget-content'>
-      <b:tag cond='data:link' expr:href='data:link' name='a'>
-        <img expr:alt='data:title' expr:height='data:height' expr:id='data:widget.instanceId + &quot;_img&quot;' expr:src='data:sourceUrl' expr:width='data:width'/>
-      </b:tag>
-      <br/>
-      <b:if cond='data:caption'>
-        <span class='caption'><data:caption/></span>
-      </b:if>
-    </div>
-    <b:include name='quickedit'/>
-  </b:includable>
-  </b:widget>
-</b:section>
+<b:section class='ad-home-widget' id='adwidegt1' maxwidgets='1' name='Home Ad Widget' showaddelement='yes'/>
 <div style='clear: both;'/>
       </div>
     <div class='body-row' id='content-wrapper'>
