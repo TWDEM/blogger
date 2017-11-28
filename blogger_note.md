@@ -37,7 +37,7 @@ template　主題會有點雜亂，因為這支 xml 檔案雜夾了 CSS, javascr
 ![](https://i.imgur.com/gkfv4Mx.png)
 
 　3). 檢查主題原始代碼中是否帶有不安全的不明連結
- [privacy badger](https://www.eff.org/privacybadger) 檢查（盡量把　template 當中不明不必要的網站連結與追蹤器拿掉，但可惡的 google , facebook 無所不在
+ [privacy badger](https://www.eff.org/privacybadger) 檢查（盡量把　template 當中javascript不明不必要的網站連結與追蹤器拿掉，移除太麻煩的留言評論系統（disqus、facebook）。但可惡的 google , facebook 仍然無所不在
 
 ![](https://i.imgur.com/WO7s5EP.png)
 

@@ -15,8 +15,8 @@
 <meta content='blogger' name='generator'/>
 <meta content='text/html; charset=UTF-8' http-equiv='Content-Type'/>
 <link href='https://www.blogger.com/openid-server.g' rel='openid.server'/>
-<link expr:href='data:blog.homepageUrl.https' rel='openid.delegate'/>
-<link expr:href='data:blog.url.https' rel='canonical'/>
+<link expr:href='data:blog.homepageUrl' rel='openid.delegate'/>
+<link expr:href='data:blog.url' rel='canonical'/>
 <b:if cond='data:blog.pageType == &quot;index&quot;'>
 <title><data:blog.pageTitle/></title>
   <meta content='YOUR DESCRIPTION HERE' name='description'/>
@@ -343,7 +343,7 @@ a.News:before {content:&quot;\f1ea&quot;}</b:widget-setting>
       <b:section class='headerleft' id='headerleft' maxwidgets='1' name='Blog Logo' showaddelement='no'>
          <b:widget id='Header1' locked='true' title='臺灣守護民主平台--newsflash (標頭)' type='Header' version='1'>
            <b:widget-settings>
-             <b:widget-setting name='displayUrl'>http://1.bp.blogspot.com/-HtioboK9nZY/WhmN5Q8U3mI/AAAAAAAALyM/eEu6hXHI2JYP3h0A5vvXsjdaSHqryrgTACK4BGAYYCw/s284/logo-text.gif</b:widget-setting>
+             <b:widget-setting name='displayUrl'>https://1.bp.blogspot.com/-HtioboK9nZY/WhmN5Q8U3mI/AAAAAAAALyM/eEu6hXHI2JYP3h0A5vvXsjdaSHqryrgTACK4BGAYYCw/s284/logo-text.gif</b:widget-setting>
              <b:widget-setting name='displayHeight'>250</b:widget-setting>
              <b:widget-setting name='sectionWidth'>284</b:widget-setting>
              <b:widget-setting name='useImage'>true</b:widget-setting>
@@ -425,7 +425,7 @@ a.News:before {content:&quot;\f1ea&quot;}</b:widget-setting>
 <b:section class='headerright' id='headerright' maxwidgets='1' name='Header Ads' showaddelement='yes'>
    <b:widget id='HTML1' locked='false' title='' type='HTML' version='1'>
      <b:widget-settings>
-       <b:widget-setting name='content'><![CDATA[<img src="https://i.imgur.com/FTHiguC.png" />]]></b:widget-setting>
+       <b:widget-setting name='content'><![CDATA[<img src="https://raw.githubusercontent.com/TWDEM/blogger/master/img/website/TDW_banner.png" />]]></b:widget-setting>
      </b:widget-settings>
      <b:includable id='main'>
   <!-- only display title if it's non-empty -->
@@ -452,8 +452,8 @@ a.News:before {content:&quot;\f1ea&quot;}</b:widget-setting>
             <b:widget-settings>
               <b:widget-setting name='text-10'>_兩岸關係論壇</b:widget-setting>
               <b:widget-setting name='link-17'>https://books.twdem.org</b:widget-setting>
-              <b:widget-setting name='link-16'>http://</b:widget-setting>
-              <b:widget-setting name='link-19'>http://</b:widget-setting>
+              <b:widget-setting name='link-16'>https://</b:widget-setting>
+              <b:widget-setting name='link-19'>https://</b:widget-setting>
               <b:widget-setting name='sorting'>NONE</b:widget-setting>
               <b:widget-setting name='link-18'>#</b:widget-setting>
               <b:widget-setting name='link-1'>#</b:widget-setting>
@@ -463,7 +463,7 @@ a.News:before {content:&quot;\f1ea&quot;}</b:widget-setting>
               <b:widget-setting name='link-15'>#</b:widget-setting>
               <b:widget-setting name='link-0'>#</b:widget-setting>
               <b:widget-setting name='link-14'>#</b:widget-setting>
-              <b:widget-setting name='link-11'>http://www.twdem.org/p/blog-page_14.html</b:widget-setting>
+              <b:widget-setting name='link-11'>https://www.twdem.org/p/blog-page_14.html</b:widget-setting>
               <b:widget-setting name='link-10'>https://sites.google.com/site/lianganguanxiluntan/</b:widget-setting>
               <b:widget-setting name='text-9'>___2015台灣民主指標</b:widget-setting>
               <b:widget-setting name='link-9'>#</b:widget-setting>
@@ -471,10 +471,10 @@ a.News:before {content:&quot;\f1ea&quot;}</b:widget-setting>
               <b:widget-setting name='link-7'>#</b:widget-setting>
               <b:widget-setting name='text-20'>捐款支持</b:widget-setting>
               <b:widget-setting name='link-8'>#</b:widget-setting>
-              <b:widget-setting name='link-5'>http://</b:widget-setting>
-              <b:widget-setting name='link-6'>http://</b:widget-setting>
-              <b:widget-setting name='link-3'>http://</b:widget-setting>
-              <b:widget-setting name='link-4'>http://</b:widget-setting>
+              <b:widget-setting name='link-5'>https://</b:widget-setting>
+              <b:widget-setting name='link-6'>https://</b:widget-setting>
+              <b:widget-setting name='link-3'>https://</b:widget-setting>
+              <b:widget-setting name='link-4'>https://</b:widget-setting>
               <b:widget-setting name='text-1'>_民主健康檢查</b:widget-setting>
               <b:widget-setting name='text-0'>工作專案</b:widget-setting>
               <b:widget-setting name='text-3'>___2016台灣民主事件</b:widget-setting>
@@ -1896,7 +1896,7 @@ letter-spacing:1.5px;
      </b:widget>
      <b:widget id='HTML901' locked='true' title='Comments system' type='HTML' version='1'>
        <b:widget-settings>
-         <b:widget-setting name='content'>[blogger][disqus][facebook]</b:widget-setting>
+         <b:widget-setting name='content'/>
        </b:widget-settings>
        <b:includable id='main'>
 
@@ -1904,12 +1904,10 @@ letter-spacing:1.5px;
 <div id='put-your-comment'>
             <b:if cond='data:content == &quot;[blogger]&quot;'>
               <div class='cmm-tabs'>
-                <div data-tab='blogger'><div class='blogger-tab'/></div>
               </div>
             </b:if>
             <b:if cond='data:content == &quot;[facebook]&quot;'>
               <div class='cmm-tabs'>
-                <div data-tab='facebook'><div class='facebook-tab'/></div>
               </div>
               <script type='text/javascript'>
               //<![CDATA[
@@ -1919,7 +1917,6 @@ letter-spacing:1.5px;
             </b:if>
             <b:if cond='data:content == &quot;[disqus]&quot;'>
               <div class='cmm-tabs'>
-                <div data-tab='disqus'><div class='disqus-tab'><div id='disqus_thread'/></div></div>
               </div>
               <script type='text/javascript'>
               //<![CDATA[
@@ -1929,26 +1926,18 @@ letter-spacing:1.5px;
             </b:if>
             <b:if cond='data:content == &quot;[blogger][facebook]&quot;'>
               <div class='cmm-tabs'>
-                <div data-tab='blogger'><div class='blogger-tab'/></div>
-                <div data-tab='facebook'><div class='facebook-tab'/></div>
               </div>
             </b:if>
             <b:if cond='data:content == &quot;[blogger][disqus]&quot;'>
               <div class='cmm-tabs'>
-                <div data-tab='blogger'><div class='blogger-tab'/></div>
-                <div data-tab='disqus'><div class='disqus-tab'><div id='disqus_thread'/></div></div>
               </div>
             </b:if>
             <b:if cond='data:content == &quot;[facebook][blogger]&quot;'>
               <div class='cmm-tabs'>
-                <div data-tab='facebook'><div class='facebook-tab'/></div>
-                <div data-tab='blogger'><div class='blogger-tab'/></div>
               </div>
             </b:if>
             <b:if cond='data:content == &quot;[facebook][disqus]&quot;'>
               <div class='cmm-tabs'>
-                <div data-tab='facebook'><div class='facebook-tab'/></div>
-                <div data-tab='disqus'><div class='disqus-tab'><div id='disqus_thread'/></div></div>
               <script type='text/javascript'>
               //<![CDATA[
                 $('#comments').remove();
@@ -1958,14 +1947,10 @@ letter-spacing:1.5px;
             </b:if>
             <b:if cond='data:content == &quot;[disqus][blogger]&quot;'>
               <div class='cmm-tabs'>
-                <div data-tab='disqus'><div class='disqus-tab'><div id='disqus_thread'/></div></div>
-                <div data-tab='blogger'><div class='blogger-tab'/></div>
               </div>
             </b:if>
             <b:if cond='data:content == &quot;[disqus][facebook]&quot;'>
               <div class='cmm-tabs'>
-                <div data-tab='disqus'><div class='disqus-tab'><div id='disqus_thread'/></div></div>
-                <div data-tab='facebook'><div class='facebook-tab'/></div>
               </div>
               <script type='text/javascript'>
               //<![CDATA[
@@ -1975,44 +1960,26 @@ letter-spacing:1.5px;
             </b:if>
             <b:if cond='data:content == &quot;[blogger][facebook][disqus]&quot;'>
               <div class='cmm-tabs'>
-                <div data-tab='blogger'><div class='blogger-tab'/></div>
-                <div data-tab='facebook'><div class='facebook-tab'/></div>
-                <div data-tab='disqus'><div class='disqus-tab'><div id='disqus_thread'/></div></div>
               </div>
             </b:if>
             <b:if cond='data:content == &quot;[blogger][disqus][facebook]&quot;'>
               <div class='cmm-tabs'>
-                <div data-tab='blogger'><div class='blogger-tab'/></div>
-                <div data-tab='disqus'><div class='disqus-tab'><div id='disqus_thread'/></div></div>
-                <div data-tab='facebook'><div class='facebook-tab'/></div>
               </div>
             </b:if>
             <b:if cond='data:content == &quot;[facebook][blogger][disqus]&quot;'>
               <div class='cmm-tabs'>
-                <div data-tab='facebook'><div class='facebook-tab'/></div>
-                <div data-tab='blogger'><div class='blogger-tab'/></div>
-                <div data-tab='disqus'><div class='disqus-tab'><div id='disqus_thread'/></div></div>
               </div>
             </b:if>
             <b:if cond='data:content == &quot;[facebook][disqus][blogger]&quot;'>
               <div class='cmm-tabs'>
-                <div data-tab='facebook'><div class='facebook-tab'/></div>
-                <div data-tab='disqus'><div class='disqus-tab'><div id='disqus_thread'/></div></div>
-                <div data-tab='blogger'><div class='blogger-tab'/></div>
               </div>
             </b:if>
             <b:if cond='data:content == &quot;[disqus][blogger][facebook]&quot;'>
               <div class='cmm-tabs'>
-                <div data-tab='disqus'><div class='disqus-tab'><div id='disqus_thread'/></div></div>
-                <div data-tab='blogger'><div class='blogger-tab'/></div>
-                <div data-tab='facebook'><div class='facebook-tab'/></div>
               </div>
             </b:if>
             <b:if cond='data:content == &quot;[disqus][facebook][blogger]&quot;'>
               <div class='cmm-tabs'>
-                <div data-tab='disqus'><div class='disqus-tab'><div id='disqus_thread'/></div></div>
-                <div data-tab='facebook'><div class='facebook-tab'/></div>
-                <div data-tab='blogger'><div class='blogger-tab'/></div>
               </div>
             </b:if>
             <div id='fb-root'/><script>(function(d, s, id){var js, fjs = d.getElementsByTagName(s)[0];if (d.getElementById(id)) return;js = d.createElement(s); js.id = id;js.src = &quot; //#xfbml=1&amp;version=v2.0&quot;;fjs.parentNode.insertBefore(js, fjs);}(document, &#39;script&#39;, &#39;facebook-jssdk&#39;));</script>&lt;script&gt;$(&quot;.facebook-tab&quot;).append(&quot;&lt;div class=&#39;fb-comments&#39; data-href=&#39;<data:blog.canonicalUrl/>&#39; data-width=&#39;100%&#39; data-numposts=&#39;5&#39; data-colorscheme=&#39;light&#39;&gt;&lt;/div&gt;&quot;);&lt;/script&gt;
@@ -2021,19 +1988,9 @@ letter-spacing:1.5px;
      </b:widget>
      <b:widget id='HTML902' locked='true' title='Disqus Shortname' type='HTML' version='1'>
        <b:widget-settings>
-         <b:widget-setting name='content'>sigma2</b:widget-setting>
+         <b:widget-setting name='content'/>
        </b:widget-settings>
        <b:includable id='main'>
-          <b:if cond='data:blog.pageType == &quot;item&quot;'>
-            &lt;script type=&#39;text/javascript&#39;&gt;
-            var disqus_shortname = &#39;<data:content/>&#39;;
-             (function() {
-              var dsq = document.createElement(&#39;script&#39;); dsq.type = &#39;text/javascript&#39;; dsq.async = true;
-              dsq.src = &#39;//&#39; + disqus_shortname + &#39;.disqus.com/embed.js&#39;;
-              (document.getElementsByTagName(&#39;head&#39;)[0] || document.getElementsByTagName(&#39;body&#39;)[0]).appendChild(dsq);
-              })();
-            &lt;/script&gt;
-          </b:if>
         </b:includable>
      </b:widget>
    </b:section>  
@@ -2443,7 +2400,7 @@ letter-spacing:1.5px;
 <b:section class='lowerbar ty-trigger' id='Footer widget(2)' preferred='yes'>
    <b:widget id='Text3' locked='false' title='隱私安全提醒' type='Text'>
      <b:widget-settings>
-       <b:widget-setting name='content'><![CDATA[<span style="font-family:&quot;;font-size:100%;">民主平台為一個小型獨立的 NGO，財力資源有限，但我們仍然高度重視每一個人上網的安全隱私。本站以免費 google blogger 架設，並透過 cloudflare 提供的免費 SSL 憑證強化訪客安全加密訪問。在此情況下，您的瀏覧器指紋記錄除了會保留在原服務提供商 google, cloudflare 外，其它收集者還包括  facebook, disqus ,androidcreator, boothstrap 等網站追蹤器。</span><span =""  style="font-family:&quot;;"><span =""  style="font-size:100%;">故提醒本站訪客依自身威脅模型，做出適當的安全防護。</span></span><div style="font-family: Georgia, serif; font-size: 100%;"><br /></div><div style="font-family: Georgia, serif; font-size: 100%;">相關資訊，請參考：<a href="https://privacytools.twngo.xyz/" target="_blank"><span =""  style="color:#0088ff;">網路隱私工具指南</span></a></div>]]></b:widget-setting>
+       <b:widget-setting name='content'><![CDATA[<span =""   style="font-family:&quot;;font-size:100%;">民主平台為一個小型獨立的 NGO，財力資源有限，但我們仍然高度重視每一個人上網的安全隱私。本站以免費 google blogger 架設，並透過 cloudflare 提供的免費 SSL 憑證強化訪客安全加密訪問。在此情況下，您的瀏覧器指紋記錄除了會保留在原服務提供商 google, cloudflare 外，其它收集者還包括  facebook,github,androidcreator, boothstrap 等網站追蹤器。</span><span style="font-family:&quot;;"><span =""  style="font-size:100%;">故提醒本站訪客依自身威脅模型，做出適當的安全防護。</span></span><div style="font-family: Georgia, serif; font-size: 100%;"><br /></div><div style="font-family: Georgia, serif; font-size: 100%;">相關資訊，請參考：<a href="https://privacytools.twngo.xyz/" target="_blank"><span =""  style="color:#0088ff;">網路隱私工具指南</span></a></div>]]></b:widget-setting>
      </b:widget-settings>
      <b:includable id='main'>
   <!-- only display title if it's non-empty -->
@@ -2497,7 +2454,7 @@ letter-spacing:1.5px;
    </b:widget>
    <b:widget id='Text2' locked='false' title='民主平台 app' type='Text'>
      <b:widget-settings>
-       <b:widget-setting name='content'><![CDATA[<div><a href="https://www.androidcreator.com/app323809"><img src="https://raw.githubusercontent.com/TWDEM/blogger/master/img/android/app_download.png" / /></a></div><br /><img align="right" src="https://raw.githubusercontent.com/TWDEM/blogger/master/img/android/tdw_app.png" style="margin: 0px 0px 0px 5px;" / /><span ="">民主平台手機應用提供本站最新消息，此工具目前仍為測試階段，僅提供 android 版本，歡迎「勇敢」試用並提供改善建議。</span>]]></b:widget-setting>
+       <b:widget-setting name='content'><![CDATA[<div><a href="https://www.androidcreator.com/app323809"><img src="https://raw.githubusercontent.com/TWDEM/blogger/master/img/android/app_download.png" / /></a></div><br /><img align="right" src="https://raw.githubusercontent.com/TWDEM/blogger/master/img/android/tdw_app.png" style="margin: 0px 0px 0px 5px;" / /><span>民主平台手機應用提供本站最新消息，此工具目前仍為測試階段，僅提供 android 版本，提醒用戶應事前了解安裝<span style="color:#ff0000;">任何軟體</span>之風險。</span>]]></b:widget-setting>
      </b:widget-settings>
      <b:includable id='main'>
   <!-- only display title if it's non-empty -->
